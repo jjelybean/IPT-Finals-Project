@@ -6,8 +6,7 @@
     $target = $_POST['target']; 
     $content = $_POST['content']; 
 
-    // the url hahshahsah
-
+    // the url
     $url = 'https://translate.terraprint.co/translate';
 
     // body 
@@ -27,7 +26,9 @@
     curl_close($ch);
 
     $data = json_decode($response, true);
-    echo $response; 
+    $translated_text = $data["translatedText"]; 
 
-    
+    echo '<div class="output-line">Translated text: ' . $translated_text. '</div>';
+
+
 ?>

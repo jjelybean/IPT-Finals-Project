@@ -30,7 +30,7 @@
         $to_rate = $data["rates"][$to]["rate"];
         $converted_amount = $data["rates"][$to]["rate_for_amount"];
 
-        echo '<div class="output-line label">Converted from: ' . $from_currency_name . ' to ' . $to_currency_name . '</div>';
+        echo '<div class="output-line.label">Converted from: ' . $from_currency_name . ' to ' . $to_currency_name . '</div>';
         echo '<div class="output-line">Amount: ' . $amount . '</div>';
         echo '<div class="output-line">Converted Amount: ' . $converted_amount . '</div>';
 
