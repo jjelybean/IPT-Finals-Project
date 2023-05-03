@@ -1,5 +1,5 @@
 <?php
-    $apiKey = '50f116948f69be7067c643bda0d1f275626d0a97';
+    $apiKey = '7fe477f359cca55cea31dc533c5d20fa89a47b2d';
 
     //get user input
     $from = $_POST['from']; 
@@ -30,7 +30,10 @@
         $to_rate = $data["rates"][$to]["rate"];
         $converted_amount = $data["rates"][$to]["rate_for_amount"];
 
-        echo "Converted from {$from_currency_name} to {$to_currency_name}\nAmount: {$amount}\nConverted Amount: {$converted_amount}";
+        echo '<div class="output-line label">Converted from: ' . $from_currency_name . ' to ' . $to_currency_name . '</div>';
+        echo '<div class="output-line">Amount: ' . $amount . '</div>';
+        echo '<div class="output-line">Converted Amount: ' . $converted_amount . '</div>';
+
     } else {
         echo "Error: Failed to convert currency";
     }

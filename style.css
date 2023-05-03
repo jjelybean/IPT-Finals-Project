@@ -1,0 +1,62 @@
+h1 {
+    color: #347474;
+    align-items: center;
+    font-family: monospace;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: monospace;
+}
+input[type=text] {
+    padding: 5px;
+    width: 250px;
+}
+button[type=submit] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #347474;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+form label,
+form input,
+form button {
+    margin: 10px;
+}
+  
+#source{
+    width: 200px;
+}
+
+#target{
+    width: 200px;
+}
+
+.output-line {
+    font-family: monospace;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .output-line.label {
+    font-weight: bold;
+    font-family: monospace;
+  }
