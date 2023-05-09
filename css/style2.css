@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+  --color1: #9CCD62;
+  --color2: #3F3D56;
+  --color3: #E0DDCA;
+  --color4: #F6F8E2;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--color4);
+  color: var(--color2);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Center the success message */
+.success-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--color4);
+}
+
+/* Style the success message container */
+.success-background .success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color2);
+  padding: 5rem;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Style the check icon */
+.success-background .success-container i {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+/* Style the success message text */
+.success-background .success-container h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+/* Style the continue button */
+.success-background .success-container input[type=submit] {
+  background-color: var(--color1);
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: .8rem 2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.success-background .success-container input[type=submit]:hover {
+    color: var(--color2);
+    font-weight: bold;
+}

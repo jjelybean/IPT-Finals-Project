@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../travgo/css/signup-style.css">
+    <link rel="shortcut icon" href="../Travgo/images/logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <h1><a href="landingPage.html">Travgo</a></h1>
+    </div>
+    <main>
+        <!-- hero section -->
+        <section class="hero">
+          <h1 class="hero__title">Travel smarter, not harder with our all-in-one travel log app.</h1>
+          <p class="hero__desc">With the help of Travgo the all-in-one travel log app, traveling can be made easier and more efficient. The app provides useful features and information that make planning and organizing trips less challenging and more enjoyable.</p>
+        </section>
+        <!-- hero section ends -->
+        <!-- sign-up section -->
+        <section class="sign-up">
+          <!-- the form itself -->
+          <form class="sign-up__form" action="user_database.php" method="post" formvalidate>
+            <div class="form__input">
+              <input class="" type="text" name="firstname" id="firstname" placeholder="First Name" value="" required>
+              <span class="warning-icon">!</span>
+              <p class="warning">First name cannot be empty</p>
+            </div>
+      
+            <div class="form__input">
+              <input class="" type="text" name="lastname" id="lastname" placeholder="Last Name" value="" required>
+              <span class="warning-icon">!</span>
+              <p class="warning">Last name cannot be empty</p>
+            </div>
+
+            <div class="form__input">
+              <input class="" type="text" name="username" id="username" placeholder="Username" value="" required>
+              <span class="warning-icon">!</span>
+              <p class="warning">Last name cannot be empty</p>
+            </div>
+      
+            <div class="form__input">
+              <input class="" type="email" name="email" id="email" placeholder="Email Address" value="" required>
+              <span class="warning-icon">!</span>
+              <p class="warning">Looks like this is not an email</p>
+            </div>
+      
+            <div class="form__input">
+              <input class="" type="password" name="password" id="password" placeholder="Password" value="" required>
+              <span class="warning-icon">!</span>
+              <p class="warning">Password can
+                not be empty</p>
+            </div>
+      
+            <input class="submit-btn" type="submit" value="Sign up">
+            <p class="form__terms">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+          </form>
+          <!-- form ends -->
+        </section>
+        <!-- sign-up ends -->
+      </main>
+</body>
+</html>

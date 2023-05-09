@@ -6,3 +6,6 @@
 >> May 4, 2023 - Finalized the two APIs used.
 >>> *The currency coverter API needs an API Key and is limited to 100 currency conversions per day*
 >>> edited translator API
+
+
+>> edited db connect.php file

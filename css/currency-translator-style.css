@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+:root {
+    --color1: #9CCD62;
+    --color2: #3F3D56;
+    --color3: #E0DDCA;
+    --color4: #F6F8E2;
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: var(--color2);
+    color: var(--color4);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    margin: 1.8rem;
+  }
+  
+  .logo h1 {
+    font-weight: 900;
+    color: var(--color4);
+    letter-spacing: .5rem;
+    text-align: justify;
+  }
+
+  .logo a {
+    color: var(--color4);
+    font-size: 2.5rem;
+  }
+  
+  .logo a:hover {
+    color: var(--color1);
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: var(--color4);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: .5rem;
+    color: var(--color2);
+    font-size: 1.2rem;
+  }
+  
+  select, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color3);
+    color: var(--color2);
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--color2);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  input {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--color1);
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  
+    select, textarea {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+  

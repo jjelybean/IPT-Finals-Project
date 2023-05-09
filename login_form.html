@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../travgo/css/signup-style.css">
+    <link rel="shortcut icon" href="../Travgo/images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+          <h1><a href="landingPage.html">Travgo</a></h1>
+        </div>
+        <main>
+            <!-- hero section -->
+            <section class="hero">
+              <h1 class="hero__title">Welcome to Travgo! Travgo your ultimate travel buddy</h1>
+              <p class="hero__desc">Login to your travel log account to experience the all in one multifunctional travel buddy throughout your journey.</p>
+            </section>
+            <!-- hero section ends -->
+            <!-- sign-up section -->
+            <section class="sign-up">
+              <!-- the form itself -->
+              <form class="sign-up__form" action="login.php" method="post" novalidate>
+          
+                <div class="form__input">
+                  <input class="" type="email" name="email" id="email" placeholder="Email Address" value="" required>
+                  <span class="warning-icon">!</span>
+                  <p class="warning">Looks like this is not an email</p>
+                </div>
+          
+                <div class="form__input">
+                  <input class="" type="Password" name="Password" id="Password" placeholder="Password" value="" required>
+                  <span class="warning-icon">!</span>
+                  <p class="warning">Password cannot be empty</p>
+                </div>
+          
+                <input class="submit-btn" type="submit" value="Login">
+                <p class="form__terms">By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
+              </form>
+              <!-- form ends -->
+            </section>
+            <!-- sign-up ends -->
+          </main>
+</body>
+</html>
