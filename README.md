@@ -1,11 +1,12 @@
-# IPT-Finals-Project
+# 🌍 TravGo
 
->> May 2, 2023 - Added the two APIs used in the project. Finished creating the APIs on April 29, 2023
->>> To be finalized.
+**TravGo** is a PHP-based web application built as part of a school project. The site integrates with external APIs to provide useful travel-related utilities such as currency conversion and language translation, making it easier for users to navigate the challenges of traveling abroad.
 
->> May 4, 2023 - Finalized the two APIs used.
->>> *The currency coverter API needs an API Key and is limited to 100 currency conversions per day*
->>> edited translator API
+## ✨ Features
+
+- **💱 Currency Converter** - Instantly convert between different currencies using real-time exchange rates.
+- **🌐 Translator** -  Translate text between multiple languages to help break down communication barriers.
+- **🎨 User-Friendly Interface** - Clean, simple, and responsive design for a smooth user experience.
 
 
->> edited db connect.php file
+---- 🌎 TravGo – A small project with worldwide possibilities. 🚀 ----
